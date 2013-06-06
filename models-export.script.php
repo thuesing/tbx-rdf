@@ -1,5 +1,5 @@
 <?php
-
+# http://www.rdfabout.com/demo/validator/
 # @see http://data-gov.tw.rpi.edu/wiki/ARC2
 
 include_once('arc2/ARC2.php');
@@ -10,8 +10,60 @@ $string = file_get_contents("model.exhibit.json");
 $json=json_decode($string,true);
 
 # test item
-$item = $json['items'][83];
+$item = $json['items'][6];
 #print_r($item);
+
+$header = <<<EOD
+    @prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+    @prefix dc:     <http://purl.org/dc/elements/1.1/#>.
+    @prefix foaf:   <http://xmlns.com/foaf/0.1/>.
+    @prefix dc:     <http://purl.org/dc/elements/1.1/>. 
+    @prefix model:  <http://beta.liaise-toolbox.eu/onto/0.1/model>.
+    @base           <http://beta.liaise-toolbox.eu/>.
+EOD;
+
+$map = array(
+    'field_acronym' => '',
+    'field_body' => '',
+    'field_contact' =>  '',
+    'field_countries' =>  '',
+    'field_enduser_documentation' => '',
+    'field_example_outputs'  =>  '',
+    'field_input' =>  '',
+    'field_ipr' =>  '',
+    'field_liaise_ownership' =>  '',
+    'field_output' =>  '',
+    'field_policy_areas' =>  '',
+    'field_policy_instrument' =>  '',
+    'field_scientific_documentation' =>  '',
+    'field_website_for_contact' =>  '',
+    'field_economic_impacts' =>  '',
+    'field_environmental_impacts' =>  '',
+    'field_social_impacts' =>  '',
+    'field_e_mail' =>  '',
+    'field_spatial_coverage' =>  '',
+    'field_economic_sectors' =>  '',
+    'field_time_horizon' =>  '',
+  );
+
+$out = $header;
+
+$out .= ':'. $item['url'] . ' a :onto/0.1/model;' . PHP_EOL;
+
+foreach ($item as $key => $value) {
+    if(is_array($value)) {
+      foreach ($value as $val) {
+        $out .= "model:$key  \"$val\";" . PHP_EOL;
+      }
+    } else {
+      $out .= "model:$key  \"$value\";" . PHP_EOL;
+    }
+}
+
+$out .= '.' . PHP_EOL;
+
+print_r($out);
+exit;
 
 # convert
 $aux = array();
