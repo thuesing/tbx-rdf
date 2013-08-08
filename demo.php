@@ -15,8 +15,8 @@ $json=json_decode($string,true);
 
 # test item 84
 # ECME 6
-$item = $json['items'][6];
-$json['items'] = array($item); // test
+# $item = $json['items'][6];
+# $json['items'] = array($item); // test
 # print_r(array_keys($json['items']));
 # exit;
 $mappings = get_mappings();
@@ -43,31 +43,48 @@ print($data);
  */
 function map_item(&$graph, &$item) { 
     global $namespaces, $mappings;
-  # preprocess item   
-    $resource = 'tbx:'.$item['url']; # single resource URI
-    $type = 'tbx:'.$item['type'];
+ 
 
-    unset($item['url']);
-    unset($item['type']);
-
-    # unset html text  for debugging
+    # unset unused text etc
+    unset($item['label']);
+    unset($item['created']); # we use changed instead
     unset($item['field_body']);
     unset($item['field_enduser_documentation']);
     unset($item['field_scientific_documentation']);
     unset($item['field_input']);
     unset($item['field_output']);
     unset($item['field_contact']);
+
     # process item 
+    $resource = 'tbx:'.$item['url']; # single resource URI
+    $type = 'tbx:'.$item['type'];
+    unset($item['url']);
+    unset($item['type']);
 
     #$graph->setType('tbx:'.$item['url'],  'tbx:'.$item['type']); same as
     $graph->addResource($resource, "rdf:type", $type);
     $graph->addType($resource, $mappings['rdftype']); #here
 
     # set editor if null
-    $item['editor'] = isset($item['editor']) ?: $item['author'];
-    $graph->addResource($resource, "tbx:editor", 'tbx:' . $item['editor']);
+    $item['editor'] = isset($item['editor']) ? $item['editor'] : $item['author'];
+    $graph->addResource($resource, "sioc:has_creator", 'tbx:' . $item['editor']);
     unset($item['editor']);
-    unset($item['author']); # the machine
+    unset($item['author']);
+    
+    # map title
+    $graph->addResource($resource, 'dc:title', $item['name']);
+    unset($item['name']);
+    
+    # map created
+    $graph->addResource($resource, 'dc:date', $item['changed']);
+    $graph->addResource($resource, 'dc:created', $item['changed']);
+    unset($item['changed']);
+    
+    if(isset($item['field_website_for_contact'])) {
+        $graph->addResource($resource, 'foaf:homepage', $item['field_website_for_contact']);
+        unset($item['field_website_for_contact']);
+    }
+    
   # end preprocess item 
 
   # process plain literals
@@ -127,21 +144,18 @@ function get_mappings() {
     # https://api.drupal.org/api/drupal/modules!rdf!rdf.module/group/rdf/7
     return array(
               'rdftype' => array('sioc:Item', 'foaf:Document'),
-              'title' => array(
+              'name' => array(
                 'predicates' => array('dc:title'),
               ),
-              'created' => array(
+              'changed' => array(
                 'predicates' => array('dc:date', 'dc:created'),
                 'datatype' => 'xsd:dateTime',
                 'callback' => 'date_iso8601',
               ),
-             'body' => array(
-                'predicates' => array('content:encoded'),
-              ),
-              'uid' => array(
+              'editor' => array(
                 'predicates' => array('sioc:has_creator'),
               ),
-              'name' => array(
+              'editor_name' => array(
                 'predicates' => array('foaf:name'),
               ),
             );
