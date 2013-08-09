@@ -2,7 +2,8 @@
 /**
  * @depends http://www.easyrdf.org/
  * @see examples/graph_direct.php example
- * validate here: http://www.rdfabout.com/demo/validator/
+ * validate here: http://www.w3.org/RDF/Validator/
+ *
  * php demo.php > tbx:models.$(date +"%Y-%m-%d-%T").turtle
  */
 
@@ -13,13 +14,10 @@ require_once "EasyRdf.php";
 $string = file_get_contents("model.exhibit.json");
 $json=json_decode($string,true);
 
-# test item 84
-# ECME 6
+# test with item 84: ECME 6
 # $item = $json['items'][6];
 # $json['items'] = array($item); // test
-# print_r(array_keys($json['items']));
-# exit;
-$mappings = get_mappings();
+
 # set namespace
 EasyRdf_Namespace::set('tbx', 'http://beta.liaise-toolbox.eu/');
 
@@ -63,7 +61,7 @@ function map_item(&$graph, &$item) {
 
     #$graph->setType('tbx:'.$item['url'],  'tbx:'.$item['type']); same as
     $graph->addResource($resource, "rdf:type", $type);
-    $graph->addType($resource, $mappings['rdftype']); #here
+    $graph->addType($resource, array('sioc:Item', 'foaf:Document')); #here
 
     # set editor if null
     $item['editor'] = isset($item['editor']) ? $item['editor'] : $item['author'];
@@ -72,16 +70,16 @@ function map_item(&$graph, &$item) {
     unset($item['author']);
     
     # map title
-    $graph->addResource($resource, 'dc:title', $item['name']);
+    $graph->addLiteral($resource, 'dc:title', $item['name']);
     unset($item['name']);
     
     # map created
-    $graph->addResource($resource, 'dc:date', $item['changed']);
-    $graph->addResource($resource, 'dc:created', $item['changed']);
+    $graph->addLiteral($resource, 'dc:date', $item['changed']);
+    $graph->addLiteral($resource, 'dc:created', $item['changed']);
     unset($item['changed']);
     
     if(isset($item['field_website_for_contact'])) {
-        $graph->addResource($resource, 'foaf:homepage', $item['field_website_for_contact']);
+        $graph->addLiteral($resource, 'foaf:homepage', $item['field_website_for_contact']);
         unset($item['field_website_for_contact']);
     }
     
@@ -137,7 +135,7 @@ $map = array(
   );
 */
 
-
+/*
 function get_mappings() {
 
     # taken from example mapping from node.module:
@@ -161,7 +159,8 @@ function get_mappings() {
             );
 
 }
-
+*/
+/*
 
 function set_namespaces() { // not functional yet
     # https://api.drupal.org/api/drupal/core%21modules%21rdf%21rdf.api.php/function/hook_rdf_namespaces/8
@@ -184,5 +183,5 @@ function set_namespaces() { // not functional yet
     }
     print_r(EasyRdf_Namespace::namespaces());
 }
-
+*/
 ?>
