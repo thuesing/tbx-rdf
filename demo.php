@@ -2,7 +2,9 @@
 /**
  * @depends http://www.easyrdf.org/
  * @see examples/graph_direct.php example
- * validate here: http://www.w3.org/RDF/Validator/
+ * validate here: 
+ * http://www.w3.org/RDF/Validator/
+ * http://www.rdfabout.com/demo/validator
  *
  * php demo.php > tbx:models.$(date +"%Y-%m-%d-%T").turtle
  */
@@ -54,6 +56,10 @@ function map_item(&$graph, &$item) {
     unset($item['field_contact']);
 
     # process item 
+
+    // replace Drupal namespace
+    $item['url'] = str_replace('/models/','', $item['url']);
+
     $resource = 'tbx:'.$item['url']; # single resource URI
     $type = 'tbx:'.$item['type'];
     unset($item['url']);
