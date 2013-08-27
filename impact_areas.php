@@ -20,10 +20,11 @@ $graph = new EasyRdf_Graph();
 
 $taxos = array('economic_impacts','environmental_impacts','social_impacts');
 //$taxo_machine_name = 'economic_impacts';
-_graph_setup(&$graph, $taxos);
+_graph_setup(&$graph, $taxos); // top concept, hierarchy
 
-//_graph_add_taxo($graph, $taxo_machine_name);
-
+foreach ($taxos as $taxo_machine_name) {
+  _graph_add_taxo($graph, $taxo_machine_name);
+}
 // serialize to
 // other formats: ntriples, rdfxml, turtle
 $data = $graph->serialise('rdfxml');
