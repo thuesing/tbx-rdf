@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+  <skos:ConceptScheme rdf:about="ia:http://beta.liaise-toolbox.eu/impact_assessment#">
+    <skos:hasTopConcept rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#impact_areas"/>
+  </skos:ConceptScheme>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/impact_assessment#impact_areas">
+    <skos:prefLabel xml:lang="en">impact areas</skos:prefLabel>
+    <skos:definition xml:lang="en">TODO Description of impact areas.</skos:definition>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts">
+    <skos:prefLabel xml:lang="en">economic_impacts</skos:prefLabel>
+    <skos:definition xml:lang="en">TODO Description of impact areas.</skos:definition>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#impact_areas"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts">
+    <skos:prefLabel xml:lang="en">environmental_impacts</skos:prefLabel>
+    <skos:definition xml:lang="en">TODO Description of impact areas.</skos:definition>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#impact_areas"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts">
+    <skos:prefLabel xml:lang="en">social_impacts</skos:prefLabel>
+    <skos:definition xml:lang="en">TODO Description of impact areas.</skos:definition>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#impact_areas"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Macroeconomic-environment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Macroeconomic-environment</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Economic-Growth-and-employment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Economic-Growth-and-employment</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Macroeconomic-environment"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Economic-stability">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Economic-stability</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Macroeconomic-environment"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Investments">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Investments</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Macroeconomic-environment"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Third-countries-and-international-relations</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Adjustment-costs-in-developing-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Adjustment-costs-in-developing-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Developing-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Developing-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/EU-bilateral-trade-policies">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">EU-bilateral-trade-policies</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/EU-foreign-and-development-policy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">EU-foreign-and-development-policy</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/EU-international-trade-policy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">EU-international-trade-policy</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Goods-traded-with-developing-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Goods-traded-with-developing-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Impacts-on-business-or-social-groups-in-third-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Impacts-on-business-or-social-groups-in-third-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/International-standards">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">International-standards</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Third-countries-and-international-relations"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Functioning-of-the-internal-market-and-competition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Functioning-of-the-internal-market-and-competition</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:EU-wide-movement-of-goods,-services,-capital-or-workers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">EU-wide-movement-of-goods,-services,-capital-or-workers</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Functioning-of-the-internal-market-and-competition"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Level-of-competition-on-EU-internal-market">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Level-of-competition-on-EU-internal-market</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Functioning-of-the-internal-market-and-competition"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Competitiveness,-trade-and-investment-flows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Competitiveness,-trade-and-investment-flows</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Competitive-position-of-EU-firms-and-productivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Competitive-position-of-EU-firms-and-productivity</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Competitiveness,-trade-and-investment-flows"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Cross-border-investment-flows">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Cross-border-investment-flows</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Competitiveness,-trade-and-investment-flows"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Operating-costs-and-conduct-of-business/small-and-medium-enterprises</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Business-access-to-finance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Business-access-to-finance</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Business-opening-or-closing">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Business-opening-or-closing</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Compliance-cost-for-business">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Compliance-cost-for-business</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Factor-costs-for-business">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Factor-costs-for-business</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Investment-cycles">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Investment-cycles</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Markets-for-products-or-services">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Markets-for-products-or-services</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Regulation-of-business">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Regulation-of-business</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Operating-costs-and-conduct-of-business/small-and-medium-enterprises"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Administrative-burdens-on-businesses">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Administrative-burdens-on-businesses</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Administrative-burdens-on-business">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Administrative-burdens-on-business</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Administrative-burdens-on-businesses"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Administrative-burdens-on-SMEs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Administrative-burdens-on-SMEs</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Administrative-burdens-on-businesses"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Public-authorities">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Public-authorities</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Public-budgets">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Public-budgets</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-authorities"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Structure-of-public-services">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Structure-of-public-services</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-authorities"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Property-rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Property-rights</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Innovation-and-research">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Innovation-and-research</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Academic-or-industrial-research-and-development">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Academic-or-industrial-research-and-development</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Innovation-and-research"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Innovation-that-impact-productivity-or-resource-efficiency">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Innovation-that-impact-productivity-or-resource-efficiency</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Innovation-and-research"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Intellectual-property-rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Intellectual-property-rights</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Innovation-and-research"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Markets-for-Innovation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Markets-for-Innovation</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Innovation-and-research"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Consumers-and-households">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Consumers-and-households</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Consumer-and-household-incomes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Consumer-and-household-incomes</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Consumer-goods-quality-and-diversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Consumer-goods-quality-and-diversity</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Consumer-protection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Consumer-protection</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Economic-safety-of-family-and-children">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Economic-safety-of-family-and-children</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Internal-market-for-consumer-goods">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Internal-market-for-consumer-goods</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Prices-for-consumer-goods">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Prices-for-consumer-goods</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Consumers-and-households"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Specific-regions-or-sectors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Specific-regions-or-sectors</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#economic_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Distributional-impacts-on-sectors-or-regions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Distributional-impacts-on-sectors-or-regions</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Specific-regions-or-sectors"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Region-specific-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Region-specific-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Specific-regions-or-sectors"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Sector-specific-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Sector-specific-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Specific-regions-or-sectors"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/The-climate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">The-climate</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Adaptation-to-climate-change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Adaptation-to-climate-change</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-climate"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Emissions-of-ozone-depletion-substances">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Emissions-of-ozone-depletion-substances</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-climate"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Greenhouse-gas-emissions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Greenhouse-gas-emissions</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-climate"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Water">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Availability-or-quality-of-Fresh--or-ground-water">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Availability-or-quality-of-Fresh--or-ground-water</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Water"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Drinking-water">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Drinking-water</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Water"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Quality-of-coastal-and-marine-water">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Quality-of-coastal-and-marine-water</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Water"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Soil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Soil</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Availability-of-soil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Availability-of-soil</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Soil"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Soil--quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Soil--quality</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Soil"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Transport-and-the-use-of-energy</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Energy-production">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Energy-production</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Energy-intensity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Energy-intensity</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Demand-for-transport">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Demand-for-transport</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Fuel-consumption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Fuel-consumption</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Vehicle-emissions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Vehicle-emissions</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Transport-and-the-use-of-energy"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Air-quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Air-quality</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Emission-that-impact-on-agriculture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Emission-that-impact-on-agriculture</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Air-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Emission-that-impact-on-Buildings">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Emission-that-impact-on-Buildings</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Air-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Emission-that-impact-on-ecosystems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Emission-that-impact-on-ecosystems</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Air-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Emissions-that-impact-on-human-health">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Emissions-that-impact-on-human-health</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Air-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Biodiversity,-flora-and-fauna">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Biodiversity,-flora-and-fauna</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Diversity-of-species-and-habitats">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Diversity-of-species-and-habitats</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Biodiversity,-flora-and-fauna"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Ecosystem-services">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Ecosystem-services</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Biodiversity,-flora-and-fauna"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Habitat-connectivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Habitat-connectivity</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Biodiversity,-flora-and-fauna"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Number-of-species">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Number-of-species</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Biodiversity,-flora-and-fauna"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Natural-resources">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Natural-resources</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Use-of-non-renewable-resources">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Use-of-non-renewable-resources</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Natural-resources"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Use-of-renewable-resources">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Use-of-renewable-resources</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Natural-resources"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Landscapes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Landscapes</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Landscape-character">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Landscape-character</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Landscapes"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Landscape-functions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Landscape-functions</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Landscapes"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Landscape-protection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Landscape-protection</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Landscapes"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Land-use">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Land-use</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Land-use-change">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Land-use-change</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Land-use"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Land-use-creation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Land-use-creation</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Land-use"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Land-use-protection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Land-use-protection</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Land-use"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/The-environmental-consequences-of-firms-and-consumers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">The-environmental-consequences-of-firms-and-consumers</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Environmental-incentives-and-restrictions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Environmental-incentives-and-restrictions</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-environmental-consequences-of-firms-and-consumers"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Firms’-Pollution">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Firms’-Pollution</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-environmental-consequences-of-firms-and-consumers"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Production-prices-of-environmental-goods">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Production-prices-of-environmental-goods</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-environmental-consequences-of-firms-and-consumers"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Sustainable-production-and-consumption">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Sustainable-production-and-consumption</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-environmental-consequences-of-firms-and-consumers"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Waste-production/-generation/-recycling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Waste-production/-generation/-recycling</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Waste-generation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Waste-generation</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Waste-production/-generation/-recycling"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Waste-treatment-or-recycling">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Waste-treatment-or-recycling</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Waste-production/-generation/-recycling"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/The-likelihood-or-scale-of-environmental-risks">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">The-likelihood-or-scale-of-environmental-risks</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Dissemination-of-GMO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Dissemination-of-GMO</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-likelihood-or-scale-of-environmental-risks"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Likelihood-and-impacts-of-accidents">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Likelihood-and-impacts-of-accidents</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-likelihood-or-scale-of-environmental-risks"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Likelihood-or-impacts-of-natural-disasters">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Likelihood-or-impacts-of-natural-disasters</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/The-likelihood-or-scale-of-environmental-risks"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Animal-welfare">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Animal-welfare</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Animal-welfare"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Animal-health">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Animal-health</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Animal-welfare"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Food-and-feed-safety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Food-and-feed-safety</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Animal-welfare"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/International-environmental-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">International-environmental-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#environmental_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Environment-in-developing-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Environment-in-developing-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/International-environmental-impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Employment-and-labour-markets">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Employment-and-labour-markets</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Demand-for-labour">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Demand-for-labour</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Functioning-of-labour-market">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Functioning-of-labour-market</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Impacts-on-employment-in-specific-sectors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Impacts-on-employment-in-specific-sectors</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Impacts-on-employment-of-specific-age-groups">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Impacts-on-employment-of-specific-age-groups</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Job-creation-or-losses">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Job-creation-or-losses</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Work/non-work-balance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Work/non-work-balance</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Employment-and-labour-markets"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Job-standards-and-quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Job-standards-and-quality</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Employees-legal-safety,-rights-and-standards">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Employees-legal-safety,-rights-and-standards</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Impact-of-new-technologies-on-jobs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Impact-of-new-technologies-on-jobs</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Job-quality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Job-quality</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Protection-of-young-people-at-work">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Protection-of-young-people-at-work</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Vocational-training">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Vocational-training</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Workers’-health,-safety-and-dignity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Workers’-health,-safety-and-dignity</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Job-standards-and-quality"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Social-inclusion-and-protection-of-particular-groups">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Social-inclusion-and-protection-of-particular-groups</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Access-to-the-labour-market">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Access-to-the-labour-market</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-inclusion-and-protection-of-particular-groups"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Distributional-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Distributional-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-inclusion-and-protection-of-particular-groups"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Equal-access-to-services-and-goods">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Equal-access-to-services-and-goods</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-inclusion-and-protection-of-particular-groups"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Provision-of-public-information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Provision-of-public-information</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-inclusion-and-protection-of-particular-groups"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Gender-equality,-equality-treatment-and-opportunities,-non-discrimination">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Gender-equality,-equality-treatment-and-opportunities,-non-discrimination</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Discrimination-of-social-groups">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Discrimination-of-social-groups</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Gender-equality,-equality-treatment-and-opportunities,-non-discrimination"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Impacts-on-gender">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Impacts-on-gender</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Gender-equality,-equality-treatment-and-opportunities,-non-discrimination"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Individuals,-private-and-family-life,-personal-data">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Individuals,-private-and-family-life,-personal-data</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Administrative-burden-for-Citizens">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Administrative-burden-for-Citizens</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Children’s-rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Children’s-rights</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Citizens-right-to-free-movement">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Citizens-right-to-free-movement</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Family-life-and-safety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Family-life-and-safety</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Liberty-rights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Liberty-rights</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Protection-of-privacy-and-personal-data">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Protection-of-privacy-and-personal-data</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Individuals,-private-and-family-life,-personal-data"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Autonomy-of-social-partner">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Autonomy-of-social-partner</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Citizens-access-to-information">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Citizens-access-to-information</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Citizens-access-to-justice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Citizens-access-to-justice</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Effectiveness-of-public-institutions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Effectiveness-of-public-institutions</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Ethical-issues">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Ethical-issues</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Media">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Media</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Political-parties-or-civic-organisations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Political-parties-or-civic-organisations</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Stakeholder-equality">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Stakeholder-equality</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Stakeholder-involvement-in-societal-decisions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Stakeholder-involvement-in-societal-decisions</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Governance,-participation,-good-administration,-access-to-justice,-media-and-ethics"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Public-health-and-safety">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Public-health-and-safety</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Energy/waste-related-health-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Energy/waste-related-health-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-health-and-safety"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/health-and-safety-impacts-through-the-quality-of-the-environment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">health-and-safety-impacts-through-the-quality-of-the-environment</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-health-and-safety"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/health-and-safety-impacts-through-the-socio-economic-environment">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">health-and-safety-impacts-through-the-socio-economic-environment</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-health-and-safety"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/health-impacts-for-risk-groups">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">health-impacts-for-risk-groups</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-health-and-safety"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Lifestyle-related-health-impacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Lifestyle-related-health-impacts</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Public-health-and-safety"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Crime,-terrorism-and-security">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Crime,-terrorism-and-security</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Crime-detection-and-gains-from-crime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Crime-detection-and-gains-from-crime</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Crime-victims">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Crime-victims</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Crime,-terrorism-or-security">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Crime,-terrorism-or-security</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Law-enforcement-capacity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Law-enforcement-capacity</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Legal-rights-of-citizens">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Legal-rights-of-citizens</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Number-of-crimes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Number-of-crimes</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Security-interests">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Security-interests</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Crime,-terrorism-and-security"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Social-protection,-health-and-educational-systems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Social-protection,-health-and-educational-systems</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Access-to-education-and-vocational-training">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Access-to-education-and-vocational-training</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Cross-border-provision-of-social-services">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Cross-border-provision-of-social-services</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Education-and-mobility-of-workers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Education-and-mobility-of-workers</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Financing,-organisation-and-access-to-social,-health-and-education-systems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Financing,-organisation-and-access-to-social,-health-and-education-systems</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:Quality-and-access-to-social,-health-and-education-systems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Quality-and-access-to-social,-health-and-education-systems</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Universities-and-academic-freedom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Universities-and-academic-freedom</skos:prefLabel>
+    <skos:broader rdf:resource="tbx:Social-protection,-health-and-educational-systems"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Culture">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Culture</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Citizens-access-to-cultural-resources">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Citizens-access-to-cultural-resources</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Culture"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Cultural-diversity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Cultural-diversity</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Culture"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Cultural-heritage">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Cultural-heritage</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Culture"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Social-impacts-in-third-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Social-impacts-in-third-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/impact_assessment#social_impacts"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="tbx:EU’s-international-obligations">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">EU’s-international-obligations</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-impacts-in-third-countries"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Poverty-and-incomes-in-developing-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Poverty-and-incomes-in-developing-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-impacts-in-third-countries"/>
+  </skos:Concept>
+
+  <skos:Concept rdf:about="http://beta.liaise-toolbox.eu/Social-impacts-of-EU-policies-in-third-countries">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="en">Social-impacts-of-EU-policies-in-third-countries</skos:prefLabel>
+    <skos:broader rdf:resource="http://beta.liaise-toolbox.eu/Social-impacts-in-third-countries"/>
+  </skos:Concept>
+
+</rdf:RDF>

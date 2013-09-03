@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tbx="http://beta.liaise-toolbox.eu/"
+         xmlns:sioc="http://rdfs.org/sioc/ns#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/assettsa">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>ASSET_TSA</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>ASSET_TSA</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/assessment-transport-strategies">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>ASsessment of TRAnsport Strategies
+</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.astra-model.eu/</foaf:homepage>
+    <tbx:field_acronym>ASTRA</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Regions and local development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/biome-bgc-zalf">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>BIOME-BGC-ZALF</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>BIOME-BGC-ZALF</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Forestry</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/common-agricultural-policy-regionalised-impact-modelling-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Common Agricultural Policy Regionalised Impact Modelling System</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.capri-model.org/index.htm</foaf:homepage>
+    <tbx:field_acronym>CAPRI</tbx:field_acronym>
+    <tbx:field_ipr>Public domain</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/cetax">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>CETAX</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.econ.ku.dk/pbs/default.htm#Address</foaf:homepage>
+    <tbx:field_acronym>CETAX</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Finance and tax</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/conversion-land-use-and-its-effects">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Conversion of Land Use and its Effects</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.ivm.vu.nl/CLUE</foaf:homepage>
+    <tbx:field_acronym>CLUE/CLUE-s/CLUE-Scanner/Dyna-CLUE</tbx:field_acronym>
+    <tbx:field_ipr>Free download</tbx:field_ipr>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Sustainable Development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/e3me">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/443"/>
+    <dc:title>E3ME</dc:title>
+    <dc:date>2013-02-07 16:24:32</dc:date>
+    <dc:created>2013-02-07 16:24:32</dc:created>
+    <foaf:homepage>http://www.e3me.com/  http://www.camecon.com/</foaf:homepage>
+    <tbx:field_acronym>E3ME</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_countries>EUROPEAN UNION</tbx:field_countries>
+    <tbx:field_countries>EUROPE (EU)</tbx:field_countries>
+    <tbx:field_countries>Austria</tbx:field_countries>
+    <tbx:field_countries>Belgium</tbx:field_countries>
+    <tbx:field_countries>Bulgaria</tbx:field_countries>
+    <tbx:field_countries>Cyprus</tbx:field_countries>
+    <tbx:field_countries>Czech Republic</tbx:field_countries>
+    <tbx:field_countries>Denmark</tbx:field_countries>
+    <tbx:field_countries>Estonia</tbx:field_countries>
+    <tbx:field_countries>Finland</tbx:field_countries>
+    <tbx:field_countries>France</tbx:field_countries>
+    <tbx:field_countries>Germany</tbx:field_countries>
+    <tbx:field_countries>Greece</tbx:field_countries>
+    <tbx:field_countries>Hungary</tbx:field_countries>
+    <tbx:field_countries>Ireland</tbx:field_countries>
+    <tbx:field_countries>Italy</tbx:field_countries>
+    <tbx:field_countries>Latvia</tbx:field_countries>
+    <tbx:field_countries>Lithuania</tbx:field_countries>
+    <tbx:field_countries>Luxemburg</tbx:field_countries>
+    <tbx:field_countries>Malta</tbx:field_countries>
+    <tbx:field_countries>Netherlands</tbx:field_countries>
+    <tbx:field_countries>Poland</tbx:field_countries>
+    <tbx:field_countries>Portugal</tbx:field_countries>
+    <tbx:field_countries>Romania</tbx:field_countries>
+    <tbx:field_countries>Slovenia</tbx:field_countries>
+    <tbx:field_countries>Slovakia</tbx:field_countries>
+    <tbx:field_countries>Spain</tbx:field_countries>
+    <tbx:field_countries>Sweden</tbx:field_countries>
+    <tbx:field_countries>United Kingdom</tbx:field_countries>
+    <tbx:field_countries>EUROPE (NON-EU)</tbx:field_countries>
+    <tbx:field_countries>Belarus</tbx:field_countries>
+    <tbx:field_countries>Croatia</tbx:field_countries>
+    <tbx:field_countries>Iceland</tbx:field_countries>
+    <tbx:field_countries>Norway</tbx:field_countries>
+    <tbx:field_countries>Russia</tbx:field_countries>
+    <tbx:field_countries>Switzerland</tbx:field_countries>
+    <tbx:field_countries>Ukraine</tbx:field_countries>
+    <tbx:field_countries>Turkey</tbx:field_countries>
+    <tbx:field_countries>AFRICA</tbx:field_countries>
+    <tbx:field_countries>Kenya</tbx:field_countries>
+    <tbx:field_countries>Egypt</tbx:field_countries>
+    <tbx:field_countries>South Africa</tbx:field_countries>
+    <tbx:field_countries>Nigeria</tbx:field_countries>
+    <tbx:field_countries>Mexico</tbx:field_countries>
+    <tbx:field_countries>Canada</tbx:field_countries>
+    <tbx:field_countries>United States</tbx:field_countries>
+    <tbx:field_countries>Argentina</tbx:field_countries>
+    <tbx:field_countries>Brazil</tbx:field_countries>
+    <tbx:field_countries>Chile</tbx:field_countries>
+    <tbx:field_countries>ASIA</tbx:field_countries>
+    <tbx:field_countries>China</tbx:field_countries>
+    <tbx:field_countries>Hong Kong</tbx:field_countries>
+    <tbx:field_countries>Japan</tbx:field_countries>
+    <tbx:field_countries>North Korea</tbx:field_countries>
+    <tbx:field_countries>South Korea</tbx:field_countries>
+    <tbx:field_countries>Taiwan</tbx:field_countries>
+    <tbx:field_countries>Armenia</tbx:field_countries>
+    <tbx:field_countries>Iran</tbx:field_countries>
+    <tbx:field_countries>Iraq</tbx:field_countries>
+    <tbx:field_countries>Israel</tbx:field_countries>
+    <tbx:field_countries>Kuwait</tbx:field_countries>
+    <tbx:field_countries>Saudi Arabia</tbx:field_countries>
+    <tbx:field_countries>United Arab Emirates</tbx:field_countries>
+    <tbx:field_countries>Afganistan</tbx:field_countries>
+    <tbx:field_countries>Bangladesh</tbx:field_countries>
+    <tbx:field_countries>India</tbx:field_countries>
+    <tbx:field_countries>Pakistan</tbx:field_countries>
+    <tbx:field_countries>Sri Lanka</tbx:field_countries>
+    <tbx:field_countries>Indonesia</tbx:field_countries>
+    <tbx:field_countries>Malaysia</tbx:field_countries>
+    <tbx:field_countries>Phillipines</tbx:field_countries>
+    <tbx:field_countries>Singapore</tbx:field_countries>
+    <tbx:field_countries>Thailand</tbx:field_countries>
+    <tbx:field_countries>Vietnam</tbx:field_countries>
+    <tbx:field_countries>OCEANIA</tbx:field_countries>
+    <tbx:field_countries>Australia</tbx:field_countries>
+    <tbx:field_countries>New Zealand</tbx:field_countries>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_instrument>Prescriptive regulatory actions</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Framework regulation</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Co-regulation and standards</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Strategies</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Public sector direct financial interventions</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Market-based instruments</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Self-regulation</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Agreements with other countries</tbx:field_policy_instrument>
+    <tbx:field_economic_impacts>Macroeconomic environment</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Functioning of the internal market and competition</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Competitiveness, trade and investment flows</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Operating costs and conduct of business/small and medium enterprises</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Innovation and research</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Consumers and households</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Specific regions or sectors</tbx:field_economic_impacts>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Transport and the use of energy</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Air quality</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Water quality and resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Soil quality or resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Land use</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Renewable or non-renewable resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The environmental consequences of firms and consumers</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Waste production/ generation/ recycling</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The likelihood or scale of environmental risks</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Animal welfare</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>International environmental impacts</tbx:field_environmental_impacts>
+    <tbx:field_social_impacts>Employment and labour markets</tbx:field_social_impacts>
+    <tbx:field_social_impacts>Standards and rights related to job quality</tbx:field_social_impacts>
+    <tbx:field_economic_sectors>Agriculture, forestry and fishing</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Mining and quarrying</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Manufacturing</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Electricity, gas, steam and air conditioning supply</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Water supply, sewerage, waste management and remediation activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Construction</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Wholesale and retail trade, repair of motor vehicles and motorcycles</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Transporting and storage</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Accommodation and food service activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Information and communication</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Financial and insurance activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Real estate activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Professional, scientific and technical activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Administrative and support service activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Public administration and defence, compulsory social security</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Education</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Human health and social work activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Other services activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Activities of households as employers, undifferentiated goods - and services - producing activities of households for own use</tbx:field_economic_sectors>
+    <tbx:field_time_horizon>Long-term ( beyond 10 years)</tbx:field_time_horizon>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/energy-environment-economy-model-global-level">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Energy-Environment-Economy Model at the Global level
+</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.e3mgmodel.com/ </foaf:homepage>
+    <tbx:field_acronym>E3MG</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/ecomod">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>ECOMOD</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>ECOMOD</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/ecosense">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>ECOSENSE</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://ecoweb.ier.uni-stuttgart.de/ecosense_web/ecosensele_web/frame.php</foaf:homepage>
+    <tbx:field_acronym>ECOSENSE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/european-forest-institute-scenarios">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>European Forest Institute Scenarios</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.efi.int/portal/virtual_library/databases/efiscen/projects/</foaf:homepage>
+    <tbx:field_acronym>EFISCEN</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Forestry</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/emissions">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Emissions</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>Emissions</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/ericatool">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/391"/>
+    <dc:title>ERICATool</dc:title>
+    <dc:date>2013-02-11 13:47:21</dc:date>
+    <dc:created>2013-02-11 13:47:21</dc:created>
+    <foaf:homepage>https://wiki.ceh.ac.uk/display/rpemain/ERICA+Toolhttp://www.project.facilia.se/erica/download.html.</foaf:homepage>
+    <tbx:field_acronym>ERICATool</tbx:field_acronym>
+    <tbx:field_ipr>Free download</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Biodiversity</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Energy</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Water</tbx:field_policy_areas>
+    <tbx:field_environmental_impacts>Transport and the use of energy</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Biodiversity, flora and fauna</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The environmental consequences of firms and consumers</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>International environmental impacts</tbx:field_environmental_impacts>
+    <tbx:field_e_mail>nab@ceh.ac.uk</tbx:field_e_mail>
+    <tbx:field_economic_sectors>Mining and quarrying</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Electricity, gas, steam and air conditioning supply</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Professional, scientific and technical activities</tbx:field_economic_sectors>
+    <tbx:field_time_horizon>Current</tbx:field_time_horizon>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/european-tax-analyzer">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>European Tax Analyzer</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.zew.de/en/publikationen/taxation/eta.php</foaf:homepage>
+    <tbx:field_acronym>ETA</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Finance and tax</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/eufasom">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>EUFASOM</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>EUFASOM</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Forestry</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/euromod">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>EUROMOD</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.iser.essex.ac.uk/research/euromod</foaf:homepage>
+    <tbx:field_acronym>EUROMOD</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Finance and tax</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/eu-rotaten">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>EU-Rotate_N</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www2.warwick.ac.uk/fac/sci/lifesci/wcc/research/nutrition/eurotaten/</foaf:homepage>
+    <tbx:field_acronym>EU-Rotate_N</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/fast-met-office-uk-universities-simulator">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>FAst Met Office / UK Universities Simulator</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.famous.ac.uk/</foaf:homepage>
+    <tbx:field_acronym>FAMOUS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/flood-ranger">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Flood Ranger</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.discoverysoftware.co.uk/FloodRanger.htm </foaf:homepage>
+    <tbx:field_acronym>Flood Ranger</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/farm-system-simulatorpart-seamless">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/501"/>
+    <dc:title>Farm System Simulator(Part of SEAMLESS)</dc:title>
+    <dc:date>2013-02-21 17:09:46</dc:date>
+    <dc:created>2013-02-21 17:09:46</dc:created>
+    <foaf:homepage>http://models.pps.wur.nl/content/home </foaf:homepage>
+    <tbx:field_acronym>FSSIM</tbx:field_acronym>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Agriculture</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Food</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Natural resources</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Demography</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Social cohesion and integration</tbx:field_policy_areas>
+    <tbx:field_economic_impacts>Specific regions or sectors</tbx:field_economic_impacts>
+    <tbx:field_environmental_impacts>Soil quality or resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Land use</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Renewable or non-renewable resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The environmental consequences of firms and consumers</tbx:field_environmental_impacts>
+    <tbx:field_social_impacts>Employment and labour markets</tbx:field_social_impacts>
+    <tbx:field_e_mail>sander.janssen@wur.nl; Martin.vanIttersum@wur.nl; argyris.kanellopoulos@wur.nl</tbx:field_e_mail>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/greenhouse-gas-and-air-pollution-interactions-and-synergies">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Greenhouse Gas and Air Pollution Interactions and Synergies</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://gains.iiasa.ac.at/gains/EU/index.login</foaf:homepage>
+    <tbx:field_acronym>GAINS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/gem-e3">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>GEM E3</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.gem-e3.net/studies.htm</foaf:homepage>
+    <tbx:field_acronym>GEM E3</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Finance and tax</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Monetary</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/general-equilibrium-model-designed-climate-change-and-greenhouse-trade">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>General Equilibrium Model designed for Climate Change and Greenhouse Trade</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://ccgt.zew.de/pr.html </foaf:homepage>
+    <tbx:field_acronym>GEM-CCGT</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Sustainable Development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/grid-enabled-integrated-earth-system-model">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Grid ENabled Integrated Earth System Model
+</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.genie.ac.uk/publications/papers.htm</foaf:homepage>
+    <tbx:field_acronym>GENIE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/global-interindustry-forecasting-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Global INterindustry FORecasting System </dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.gws-os.de/</foaf:homepage>
+    <tbx:field_acronym>GINFORS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/global-methodology-mapping-human-impacts-biosphere">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Global Methodology for Mapping Human Impacts on the Biosphere</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.globio.info/publication/</foaf:homepage>
+    <tbx:field_acronym>GLOBIO</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/global-trade-analysis-project">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Global Trade Analysis Project</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>https://www.gtap.agecon.purdue.edu/default.asp</foaf:homepage>
+    <tbx:field_acronym>GTAP</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/hermes">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>HERMES</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>HERMES</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/intertemporal-computable-equilibrium-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Intertemporal Computable Equilibrium System</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.feem.it/getpage.aspx?id=138&amp;sez=Research&amp;padre=18&amp;sub=75&amp;idsub=102</foaf:homepage>
+    <tbx:field_acronym>ICES</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_countries>AFRICA</tbx:field_countries>
+    <tbx:field_countries>THE AMERICAS</tbx:field_countries>
+    <tbx:field_countries>United States</tbx:field_countries>
+    <tbx:field_countries>ASIA</tbx:field_countries>
+    <tbx:field_countries>OCEANIA</tbx:field_countries>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Finance and Banking</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Industry</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Trade</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Air Pollution</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Climate change</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Energy</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Employment</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Finance and tax</tbx:field_policy_areas>
+    <tbx:field_economic_impacts>Competitiveness, trade and investment flows</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Consumers and households</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Third countries and international relations</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Macroeconomic environment</tbx:field_economic_impacts>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Transport and the use of energy</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Air quality</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Land use</tbx:field_environmental_impacts>
+    <tbx:field_social_impacts>Employment and labour markets</tbx:field_social_impacts>
+    <tbx:field_e_mail>francesco.bosello@feem.it</tbx:field_e_mail>
+    <tbx:field_spatial_coverage>Global</tbx:field_spatial_coverage>
+    <tbx:field_time_horizon>Long-term ( beyond 10 years)</tbx:field_time_horizon>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/integrated-model-assess-global-environment">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Integrated Model to Assess the Global Environment</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://themasites.pbl.nl/en/themasites/image/index.html</foaf:homepage>
+    <tbx:field_acronym>IMAGE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/iiasa-population">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>IIASA Population</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>IIASA Population</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Demography</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Families</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/integrated-nitrogen-impact-assessment-tool-regional-scale">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Integrated NITrogen Impact Assessment Tool On a Regional scale</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>INITIATOR2</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/integrated-nitrogen-tool-across-europe-greenhouse-gases-and-ammonia-targeted-operational">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Integrated Nitrogen Tool across Europe for Greenhouse gases and Ammonia Targeted to Operational Responses</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>INTEGRATOR</tbx:field_acronym>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_ipr>Demo-version only</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Air quality</tbx:field_environmental_impacts>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/landcare-dss">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>LandCaRe-DSS</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.landcare2020.de/</foaf:homepage>
+    <tbx:field_acronym>LandCaRe-DSS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/long-range-energy-alternatives-planning-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Long range Energy Alternatives Planning System</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.sei-international.org/projects?prid=189
+http://www.energycommunity.org/default.asp?action=47</foaf:homepage>
+    <tbx:field_acronym>LEAP</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/model-assessment-greenhouse-gas-induced-climate-change">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Model for the Assessment of Greenhouse-gas Induced Climate Change</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.cgd.ucar.edu/cas/wigley/magicc/</foaf:homepage>
+    <tbx:field_acronym>MAGICC</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/markal-times">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>MARKAL-TIMES</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.etsap.org/markal/main.html</foaf:homepage>
+    <tbx:field_acronym>MARKAL-TIMES</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/multicriteria-mathematical-programming-tool">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Multicriteria mathematical programming tool</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.cap-ire.eu/</foaf:homepage>
+    <tbx:field_acronym>MCMPT</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/modeling-framework-health-impact-assessment-man-induced-atmospheric-changes">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Modeling Framework for the Health Impact Assessment of Man-Induced Atmospheric Changes</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>www.pimmartens.info</foaf:homepage>
+    <tbx:field_acronym>MIASMA</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_social_impacts>Public health and safety</tbx:field_social_impacts>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/mirage">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>MIRAGE</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.cepii.fr/anglaisgraph/models/mirage.htm</foaf:homepage>
+    <tbx:field_acronym>MIRAGE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/effects-and-interactions-policies-and-measures-agriculture-n-losses-and-p-balances-regional">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Effects and interactions of policies and measures in agriculture on N losses and P balances at a regional level in EU-27.</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.scammonia.wur.nl/UK/</foaf:homepage>
+    <tbx:field_acronym>MITERRA-EUROPE</tbx:field_acronym>
+    <tbx:field_ipr>Private software (developed for one user only)</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/modam">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>MODAM</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://project1.zalf.de/modamportal</foaf:homepage>
+    <tbx:field_acronym>MODAM</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/modsim-dss">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>MODSIM-DSS</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://scenarios.ew.eea.europa.eu/fol079729/online-model-inventory/modsim-dss
+
+http://modsim.engr.colostate.edu/</foaf:homepage>
+    <tbx:field_acronym>MODSIM-DSS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/monica">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>MONICA</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>MONICA</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/neac">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>NEAC</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://site.nea.nl/neac/</foaf:homepage>
+    <tbx:field_acronym>NEAC</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/nles-cat">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>NLES-CAT</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>NLES-CAT</tbx:field_acronym>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_ipr>Model source code open source</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Agriculture</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Water</tbx:field_policy_areas>
+    <tbx:field_environmental_impacts>Water quality and resources</tbx:field_environmental_impacts>
+    <tbx:field_e_mail>HEA@DMU.DK</tbx:field_e_mail>
+    <tbx:field_economic_sectors>Agriculture, forestry and fishing</tbx:field_economic_sectors>
+    <tbx:field_time_horizon>Current</tbx:field_time_horizon>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/new-econometric-model-evaluation-sectoral-interdependency-and-supply">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>New Econometric Model of Evaluation by Sectoral Interdependency
+and Supply</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://nemesis.plan.be/</foaf:homepage>
+    <tbx:field_acronym>NEMESIS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/nest">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>NEST</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>NEST</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/n-vino">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>N-Vino</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>N-Vino</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/pace-policy-analysis-based-computable-equilibrium">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>PACE (Policy Analysis based on Computable Equilibrium)</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://iatools.jrc.ec.europa.eu/bin/view/IQTool/ModelPACE.html</foaf:homepage>
+    <tbx:field_acronym>PACE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/pestnab">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>PESTNAB</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>PESTNAB</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/phoenix-latest-version-phoenix-plus">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>PHOENIX latest version: PHOENIX plus</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://scenarios.ew.eea.europa.eu/fol079729/online-model-inventory/phoenix-plus</foaf:homepage>
+    <tbx:field_acronym>PHOENIX</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Demography</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/prospective-outlook-long-term-energy-systems">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Prospective Outlook on Long-term Energy Systems</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://webu2.upmf-grenoble.fr/iepe/Recherche/Recha5.html http://en.wikipedia.org/wiki/Prospective_Outlook_on_Long-term_Energy_Systems</foaf:homepage>
+    <tbx:field_acronym>POLES</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/porpoise">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Porpoise </dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>Porpoise </tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/primes">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>PRIMES</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.e3mlab.ntua.gr/e3mlab/index.php?option=com_content&amp;view=category&amp;id=35%3Aprimes&amp;Itemid=80&amp;layout=default&amp;lang=en</foaf:homepage>
+    <tbx:field_acronym>PRIMES</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Sustainable Development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/quest-latest-version-quest-iii">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>QUEST (latest version: QUEST III)</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>  http://ec.europa.eu/economy_finance/research/macroeconomic_models_en.htm     http://ec.europa.eu/economy_finance/publications/publication15099_en.pdf</foaf:homepage>
+    <tbx:field_acronym>QUEST</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/resource-and-energy-analysis-programme">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Resource and Energy Analysis Programme</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://resource-accounting.org.uk/</foaf:homepage>
+    <tbx:field_acronym>REAP</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/rebecca-toolbox">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>REBECCA toolbox</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.rbm-toolbox.net/rebecca/</foaf:homepage>
+    <tbx:field_acronym>REBECCA toolbox</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/river-basin-managers-toolbox">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>RIVER BASIN MANAGER'S TOOLBOX</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.rbm-toolbox.net/</foaf:homepage>
+    <tbx:field_acronym>RIVER BASIN MANAGER'S TOOLBOX</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/rotor">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>ROTOR</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>ROTOR</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/spatial-analysis-and-modelling-tool">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Spatial Analysis and Modelling Tool</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.zalf.de/home_samt-lsa/index.html</foaf:homepage>
+    <tbx:field_acronym>SAMT</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/system-environmental-and-agricultural-modelling-linking-european-science-and-society">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>System for Environmental and Agricultural Modelling - Linking European Science and Society</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.seamless-ip.org/</foaf:homepage>
+    <tbx:field_acronym>SEAMLESS-IF</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/sustainability-impact-assessment-tools-sensor">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Sustainability Impact Assessment Tools (SENSOR)</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>www.sensor-ip.eu</foaf:homepage>
+    <tbx:field_acronym>SIAT</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/sustainable-metropolitan-regions">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Sustainable Metropolitan Regions</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>SUSMETRO</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/transactional-environmental-support-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Transactional Environmental Support System</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>www.tess-project.eu (?)</foaf:homepage>
+    <tbx:field_acronym>TESS</tbx:field_acronym>
+    <tbx:field_ipr>Shareware</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Regions and local development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/theseus">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Theseus</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>Theseus</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/thor">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>THOR</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>THOR</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/tools-transport-forecasting-and-scenario-testing">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>TOOLS for TRansport Forecasting ANd Scenario testing</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://energy.jrc.ec.europa.eu/transtools/contact.html</foaf:homepage>
+    <tbx:field_acronym>TRANS-TOOLS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/tremove">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>TREMOVE</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.tremove.org/</foaf:homepage>
+    <tbx:field_acronym>TREMOVE</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/vaclav">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>VACLAV</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>VACLAV</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/very-simple-dynamic-model">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Very Simple Dynamic Model</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.rivm.nl/en/themasites/cce/methods_and_models/vsd-model/index.html</foaf:homepage>
+    <tbx:field_acronym>VSD</tbx:field_acronym>
+    <tbx:field_ipr>Free download</tbx:field_ipr>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/waste-and-material-flows-model">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Waste and material flows model</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://waste.eionet.europa.eu/</foaf:homepage>
+    <tbx:field_acronym>Waste and material flows model</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Waste</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/water-global-assessment-and-prognosis">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Water - a Global Assessment and Prognosis</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.usf.uni-kassel.de/cesr/index.php?option=com_project&amp;Itemid=143&amp;task=view_detail&amp;agid=47&amp;lang=en</foaf:homepage>
+    <tbx:field_acronym>Water-GAP</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/decision-support-system-decision-making-regional-planning-sustainable-development">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Decision support system for decision making in regional planning, sustainable development of agricultural regions and environmental protection</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>Watermap-DSS</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/watersketch-toolbox">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Watersketch Toolbox</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://toolbox.watersketch.net/</foaf:homepage>
+    <tbx:field_acronym>Watersketch</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/waterware-water-resources-management-information-system">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>WaterWare water resources management information system</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.ess.co.at/WATERWARE/ </foaf:homepage>
+    <tbx:field_acronym>WaterWare</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/world-agricultural-trade-simulation-model">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>World Agricultural Trade SImulation Model</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.ilr1.uni-bonn.de/agpo/rsrch/watsim/wats_ov_e.htm</foaf:homepage>
+    <tbx:field_acronym>WATSIM</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/water-evaluation-and-planning">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>Water Evaluation and Planning</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.weap21.org/</foaf:homepage>
+    <tbx:field_acronym>WEAP</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/witch">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>WITCH</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.witchmodel.org/</foaf:homepage>
+    <tbx:field_acronym>WITCH</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_countries>AFRICA</tbx:field_countries>
+    <tbx:field_countries>THE AMERICAS</tbx:field_countries>
+    <tbx:field_countries>United States</tbx:field_countries>
+    <tbx:field_countries>ASIA</tbx:field_countries>
+    <tbx:field_countries>China</tbx:field_countries>
+    <tbx:field_countries>SOUTH ASIA</tbx:field_countries>
+    <tbx:field_countries>India</tbx:field_countries>
+    <tbx:field_countries>SOUTHEAST ASIA</tbx:field_countries>
+    <tbx:field_countries>Indonesia</tbx:field_countries>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Economy</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Climate change</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Energy</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Education</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Science and Research</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Sustainable Development</tbx:field_policy_areas>
+    <tbx:field_policy_instrument>Strategies</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Agreements with other countries</tbx:field_policy_instrument>
+    <tbx:field_economic_impacts>Competitiveness, trade and investment flows</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Innovation and research</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Specific regions or sectors</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Macroeconomic environment</tbx:field_economic_impacts>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Transport and the use of energy</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Renewable or non-renewable resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The environmental consequences of firms and consumers</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>International environmental impacts</tbx:field_environmental_impacts>
+    <tbx:field_e_mail>witch@feem.it</tbx:field_e_mail>
+    <tbx:field_spatial_coverage>Global</tbx:field_spatial_coverage>
+    <tbx:field_time_horizon>Long-term ( beyond 10 years)</tbx:field_time_horizon>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/world-water-game">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>World Water Game</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.wldelft.nl/soft/wwg/download.html  </foaf:homepage>
+    <tbx:field_acronym>WWG</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/worldscan">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>WorldScan</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <tbx:field_acronym>WorldScan</tbx:field_acronym>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/xplorer">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>XPLORER</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://plurel.ait.ac.at/plurel/xplorer/</foaf:homepage>
+    <tbx:field_acronym>XPLORER</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/ykr-monitoring-system-spatial-structure">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>YKR - Monitoring system of spatial structure</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://www.ymparisto.fi/default.asp?contentid=277085&amp;lan=fi&amp;clan=fi</foaf:homepage>
+    <tbx:field_acronym>YKR</tbx:field_acronym>
+    <tbx:field_liaise_ownership>no</tbx:field_liaise_ownership>
+    <tbx:field_policy_areas>Administration</tbx:field_policy_areas>
+    <tbx:field_policy_areas>Regions and local development</tbx:field_policy_areas>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/safira-ii-megasite-management-toolsuite">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/0"/>
+    <dc:title>SAFIRA II Megasite Management Toolsuite</dc:title>
+    <dc:date>2012-12-10 13:10:44</dc:date>
+    <dc:created>2012-12-10 13:10:44</dc:created>
+    <foaf:homepage>http://safira-mmt.de/</foaf:homepage>
+    <tbx:field_acronym>MMT</tbx:field_acronym>
+    <tbx:field_ipr>Free download</tbx:field_ipr>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+  </tbx:model>
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/dev-test-model">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/1"/>
+    <dc:title>DEV TEST Model</dc:title>
+    <dc:date>2013-03-12 16:06:48</dc:date>
+    <dc:created>2013-03-12 16:06:48</dc:created>
+    <tbx:field_acronym>TEST</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_environmental_impacts>Demand for transport</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Energy intensity</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Biodiversity, flora and fauna</tbx:field_environmental_impacts>
+  </tbx:model>
+
+</rdf:RDF>

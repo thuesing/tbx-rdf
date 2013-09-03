@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:tbx="http://beta.liaise-toolbox.eu/"
+         xmlns:sioc="http://rdfs.org/sioc/ns#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+
+  <tbx:model rdf:about="http://beta.liaise-toolbox.eu/e3me">
+    <rdf:type rdf:resource="http://rdfs.org/sioc/ns#Item"/>
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <sioc:has_creator rdf:resource="tbx:user/443"/>
+    <dc:title>E3ME</dc:title>
+    <dc:date>2013-02-07 16:24:32</dc:date>
+    <dc:created>2013-02-07 16:24:32</dc:created>
+    <foaf:homepage>http://www.e3me.com/  http://www.camecon.com/</foaf:homepage>
+    <tbx:field_acronym>E3ME</tbx:field_acronym>
+    <tbx:field_countries>GLOBE</tbx:field_countries>
+    <tbx:field_countries>EUROPE</tbx:field_countries>
+    <tbx:field_countries>EUROPEAN UNION</tbx:field_countries>
+    <tbx:field_countries>EUROPE (EU)</tbx:field_countries>
+    <tbx:field_countries>Austria</tbx:field_countries>
+    <tbx:field_countries>Belgium</tbx:field_countries>
+    <tbx:field_countries>Bulgaria</tbx:field_countries>
+    <tbx:field_countries>Cyprus</tbx:field_countries>
+    <tbx:field_countries>Czech Republic</tbx:field_countries>
+    <tbx:field_countries>Denmark</tbx:field_countries>
+    <tbx:field_countries>Estonia</tbx:field_countries>
+    <tbx:field_countries>Finland</tbx:field_countries>
+    <tbx:field_countries>France</tbx:field_countries>
+    <tbx:field_countries>Germany</tbx:field_countries>
+    <tbx:field_countries>Greece</tbx:field_countries>
+    <tbx:field_countries>Hungary</tbx:field_countries>
+    <tbx:field_countries>Ireland</tbx:field_countries>
+    <tbx:field_countries>Italy</tbx:field_countries>
+    <tbx:field_countries>Latvia</tbx:field_countries>
+    <tbx:field_countries>Lithuania</tbx:field_countries>
+    <tbx:field_countries>Luxemburg</tbx:field_countries>
+    <tbx:field_countries>Malta</tbx:field_countries>
+    <tbx:field_countries>Netherlands</tbx:field_countries>
+    <tbx:field_countries>Poland</tbx:field_countries>
+    <tbx:field_countries>Portugal</tbx:field_countries>
+    <tbx:field_countries>Romania</tbx:field_countries>
+    <tbx:field_countries>Slovenia</tbx:field_countries>
+    <tbx:field_countries>Slovakia</tbx:field_countries>
+    <tbx:field_countries>Spain</tbx:field_countries>
+    <tbx:field_countries>Sweden</tbx:field_countries>
+    <tbx:field_countries>United Kingdom</tbx:field_countries>
+    <tbx:field_countries>EUROPE (NON-EU)</tbx:field_countries>
+    <tbx:field_countries>Belarus</tbx:field_countries>
+    <tbx:field_countries>Croatia</tbx:field_countries>
+    <tbx:field_countries>Iceland</tbx:field_countries>
+    <tbx:field_countries>Norway</tbx:field_countries>
+    <tbx:field_countries>Russia</tbx:field_countries>
+    <tbx:field_countries>Switzerland</tbx:field_countries>
+    <tbx:field_countries>Ukraine</tbx:field_countries>
+    <tbx:field_countries>Turkey</tbx:field_countries>
+    <tbx:field_countries>AFRICA</tbx:field_countries>
+    <tbx:field_countries>Kenya</tbx:field_countries>
+    <tbx:field_countries>Egypt</tbx:field_countries>
+    <tbx:field_countries>South Africa</tbx:field_countries>
+    <tbx:field_countries>Nigeria</tbx:field_countries>
+    <tbx:field_countries>Mexico</tbx:field_countries>
+    <tbx:field_countries>Canada</tbx:field_countries>
+    <tbx:field_countries>United States</tbx:field_countries>
+    <tbx:field_countries>Argentina</tbx:field_countries>
+    <tbx:field_countries>Brazil</tbx:field_countries>
+    <tbx:field_countries>Chile</tbx:field_countries>
+    <tbx:field_countries>ASIA</tbx:field_countries>
+    <tbx:field_countries>China</tbx:field_countries>
+    <tbx:field_countries>Hong Kong</tbx:field_countries>
+    <tbx:field_countries>Japan</tbx:field_countries>
+    <tbx:field_countries>North Korea</tbx:field_countries>
+    <tbx:field_countries>South Korea</tbx:field_countries>
+    <tbx:field_countries>Taiwan</tbx:field_countries>
+    <tbx:field_countries>Armenia</tbx:field_countries>
+    <tbx:field_countries>Iran</tbx:field_countries>
+    <tbx:field_countries>Iraq</tbx:field_countries>
+    <tbx:field_countries>Israel</tbx:field_countries>
+    <tbx:field_countries>Kuwait</tbx:field_countries>
+    <tbx:field_countries>Saudi Arabia</tbx:field_countries>
+    <tbx:field_countries>United Arab Emirates</tbx:field_countries>
+    <tbx:field_countries>Afganistan</tbx:field_countries>
+    <tbx:field_countries>Bangladesh</tbx:field_countries>
+    <tbx:field_countries>India</tbx:field_countries>
+    <tbx:field_countries>Pakistan</tbx:field_countries>
+    <tbx:field_countries>Sri Lanka</tbx:field_countries>
+    <tbx:field_countries>Indonesia</tbx:field_countries>
+    <tbx:field_countries>Malaysia</tbx:field_countries>
+    <tbx:field_countries>Phillipines</tbx:field_countries>
+    <tbx:field_countries>Singapore</tbx:field_countries>
+    <tbx:field_countries>Thailand</tbx:field_countries>
+    <tbx:field_countries>Vietnam</tbx:field_countries>
+    <tbx:field_countries>OCEANIA</tbx:field_countries>
+    <tbx:field_countries>Australia</tbx:field_countries>
+    <tbx:field_countries>New Zealand</tbx:field_countries>
+    <tbx:field_liaise_ownership>yes</tbx:field_liaise_ownership>
+    <tbx:field_policy_instrument>Prescriptive regulatory actions</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Framework regulation</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Co-regulation and standards</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Strategies</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Public sector direct financial interventions</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Market-based instruments</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Self-regulation</tbx:field_policy_instrument>
+    <tbx:field_policy_instrument>Agreements with other countries</tbx:field_policy_instrument>
+    <tbx:field_economic_impacts>Macroeconomic environment</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Functioning of the internal market and competition</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Competitiveness, trade and investment flows</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Operating costs and conduct of business/small and medium enterprises</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Innovation and research</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Consumers and households</tbx:field_economic_impacts>
+    <tbx:field_economic_impacts>Specific regions or sectors</tbx:field_economic_impacts>
+    <tbx:field_environmental_impacts>The climate</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Transport and the use of energy</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Air quality</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Water quality and resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Soil quality or resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Land use</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Renewable or non-renewable resources</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The environmental consequences of firms and consumers</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Waste production/ generation/ recycling</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>The likelihood or scale of environmental risks</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>Animal welfare</tbx:field_environmental_impacts>
+    <tbx:field_environmental_impacts>International environmental impacts</tbx:field_environmental_impacts>
+    <tbx:field_social_impacts>Employment and labour markets</tbx:field_social_impacts>
+    <tbx:field_social_impacts>Standards and rights related to job quality</tbx:field_social_impacts>
+    <tbx:field_economic_sectors>Agriculture, forestry and fishing</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Mining and quarrying</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Manufacturing</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Electricity, gas, steam and air conditioning supply</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Water supply, sewerage, waste management and remediation activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Construction</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Wholesale and retail trade, repair of motor vehicles and motorcycles</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Transporting and storage</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Accommodation and food service activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Information and communication</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Financial and insurance activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Real estate activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Professional, scientific and technical activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Administrative and support service activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Public administration and defence, compulsory social security</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Education</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Human health and social work activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Other services activities</tbx:field_economic_sectors>
+    <tbx:field_economic_sectors>Activities of households as employers, undifferentiated goods - and services - producing activities of households for own use</tbx:field_economic_sectors>
+    <tbx:field_time_horizon>Long-term ( beyond 10 years)</tbx:field_time_horizon>
+  </tbx:model>
+</rdf:RDF>
