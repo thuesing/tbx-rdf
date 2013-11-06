@@ -6,11 +6,16 @@
  * http://www.w3.org/RDF/Validator/
  * http://www.rdfabout.com/demo/validator
  *
- * php demo.php > tbx:models.$(date +"%Y-%m-%d-%T").turtle
+ * drush php-script impact_areas.exporter.php -r ~/www/tbx.dev/ > tbx:impact_areas.$(date +"%Y-%m-%d-%T").rdf
+ *
  */
 
 #set_include_path(get_include_path() . PATH_SEPARATOR . 'easyrdf/lib/');
 require_once "easyrdf/lib/EasyRdf.php";
+
+// serialize to
+// other formats: ntriples, rdfxml, turtle
+$format = 'rdfxml';
 
 # set namespace
 EasyRdf_Namespace::set('tbx', 'http://beta.liaise-toolbox.eu/');
@@ -20,14 +25,14 @@ $graph = new EasyRdf_Graph();
 
 $taxos = array('economic_impacts','environmental_impacts','social_impacts');
 //$taxo_machine_name = 'economic_impacts';
-_graph_setup(&$graph, $taxos); // top concept, hierarchy
+_graph_setup($graph, $taxos); // top concept, hierarchy
 
 foreach ($taxos as $taxo_machine_name) {
   _graph_add_taxo($graph, $taxo_machine_name);
 }
 // serialize to
 // other formats: ntriples, rdfxml, turtle
-$data = $graph->serialise('rdfxml');
+$data = $graph->serialise($format);
 if (!is_scalar($data)) {
     $data = var_export($data, true);
 }
