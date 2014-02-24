@@ -1,3 +1,9 @@
+out/
+mat/
+easyrdf/
+easyrdf
+*.rdf
+
 # Ignore configuration files that may contain sensitive information.
 sites/*/*settings*.php
 

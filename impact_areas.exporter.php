@@ -75,6 +75,12 @@ function _get_resource_name($term_name) {
   return $resource_name;
 }
 
+function _get_description_from($nid) {
+  $node = node_load($nid);
+  $desc = $node->body['und'][0]['value'];
+  return $desc;
+}
+
 function _graph_setup(&$graph, $taxos) {
 
 /*
