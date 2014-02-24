@@ -55,7 +55,14 @@ function _graph_add_taxo(&$graph, $taxo_machine_name) {
       // $graph->addResource($resource, "rdf:type", 'owl:Class');
       $graph->addType($resource, array('skos:Concept','owl:Class')); #here
       $graph->addLiteral($resource, 'skos:prefLabel', $term->name, 'en');
-         
+
+      // add doc for term as descr
+      $descr = _get_description_for($term);
+      if(!empty($descr)) {
+        $def = "<![CDATA[" . $descr . "]]";
+        $graph->addLiteral($resource, 'skos:definition', $def , 'en');
+      }
+
       foreach ($term->parents as $parent_id) {
         if($parent_id == 0) { // root item  set relation to top Concept, per convention taxo_machine_name s.U.
             $graph->addResource($resource, "skos:broader", 'ia:' . $taxo_machine_name);
@@ -75,10 +82,22 @@ function _get_resource_name($term_name) {
   return $resource_name;
 }
 
-function _get_description_from($nid) {
-  $node = node_load($nid);
-  $desc = $node->body['und'][0]['value'];
-  return $desc;
+
+function _get_description_for(&$term_from_tree) {
+
+    $desc = null;
+
+    $term = taxonomy_term_load($term_from_tree->tid); // term from tree has no fields included
+
+    if(isset($term->field_manual_for_term['und'][0]['target_id'])) {
+      $node_id_description = $term->field_manual_for_term['und'][0]['target_id'];
+    }
+
+    if($node_id_description) {
+     $node = node_load($node_id_description);
+     $desc = $node->body['und'][0]['value'];
+    }
+    return $desc;
 }
 
 function _graph_setup(&$graph, $taxos) {
@@ -109,7 +128,7 @@ function _graph_setup(&$graph, $taxos) {
  $resource = 'ia:impact_areas';
  $graph->addType($resource, array('skos:Concept'));
  $graph->addLiteral($resource, 'skos:prefLabel', 'Impact areas', 'en');
- $graph->addLiteral($resource, 'skos:definition', 'TODO Description of impact areas.', 'en');
+ #$graph->addLiteral($resource, 'skos:definition', 'TODO Description of impact areas.', 'en');
 
 /*
  $graph->addResource($resource, "skos:narrower", 'ia:economic_impacts']);
@@ -121,15 +140,15 @@ function _graph_setup(&$graph, $taxos) {
 
 foreach ($taxos as $machine_name) {
 
-     $voc = taxonomy_vocabulary_machine_name_load('economic_impacts');
+     $voc = taxonomy_vocabulary_machine_name_load($machine_name);
+     $def = "<![CDATA[" . $voc->description . "]]";
 
      $resource = 'ia:' . $machine_name;
      $graph->addType($resource, array('skos:Concept'));
      $graph->addLiteral($resource, 'skos:prefLabel', $voc->name , 'en');
-     $graph->addLiteral($resource, 'skos:definition', 'TODO Description of impact areas.', 'en');
+     $graph->addLiteral($resource, 'skos:definition', $def, 'en');
      $graph->addResource($resource, "skos:broader", 'ia:impact_areas');
 }
-
 
 
 
