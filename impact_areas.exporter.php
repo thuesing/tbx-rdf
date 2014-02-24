@@ -18,12 +18,13 @@ require_once "easyrdf/lib/EasyRdf.php";
 $format = 'rdfxml';
 
 # set namespace
-EasyRdf_Namespace::set('tbx', 'http://beta.liaise-toolbox.eu/');
+#EasyRdf_Namespace::set('tbx', 'http://beta.liaise-toolbox.eu/');
 EasyRdf_Namespace::set('ia', 'http://beta.liaise-toolbox.eu/impact_assessment#');
 
 $graph = new EasyRdf_Graph();
 
-$taxos = array('economic_impacts','environmental_impacts','social_impacts');
+#$taxos = array('economic_impacts','environmental_impacts','social_impacts');
+$taxos = array('economic_impacts');
 //$taxo_machine_name = 'economic_impacts';
 _graph_setup($graph, $taxos); // top concept, hierarchy
 
@@ -48,9 +49,9 @@ function _graph_add_taxo(&$graph, $taxo_machine_name) {
 
     foreach ($tree as $term) {
 
-      $term->name = str_replace(' ', '-', $term->name);
+      $resource_name = _get_resource_name($term->name);
+      $resource = 'ia:'. $resource_name; # single resource URI
 
-      $resource = 'tbx:'.$term->name; # single resource URI
       // $graph->addResource($resource, "rdf:type", 'owl:Class');
       $graph->addType($resource, array('skos:Concept','owl:Class')); #here
       $graph->addLiteral($resource, 'skos:prefLabel', $term->name, 'en');
@@ -60,12 +61,18 @@ function _graph_add_taxo(&$graph, $taxo_machine_name) {
             $graph->addResource($resource, "skos:broader", 'ia:' . $taxo_machine_name);
         } else {  // set relation to Parent concept
             $parent = $tree[$parent_id];
-            $parent->name = str_replace(' ', '-', $parent->name);
-            $graph->addResource($resource, 'skos:broader', 'tbx:'.$parent->name); 
+            $parent_resource_name = _get_resource_name($parent->name);
+            $graph->addResource($resource, 'skos:broader', 'ia:'.$parent_resource_name); 
         }
 
       }
     }  
+}
+
+function _get_resource_name($term_name) {
+  $resource_name = str_replace(' ', '-', $term_name);
+  $resource_name = strtolower($resource_name);
+  return $resource_name;
 }
 
 function _graph_setup(&$graph, $taxos) {
@@ -95,7 +102,7 @@ function _graph_setup(&$graph, $taxos) {
 
  $resource = 'ia:impact_areas';
  $graph->addType($resource, array('skos:Concept'));
- $graph->addLiteral($resource, 'skos:prefLabel', 'impact areas', 'en');
+ $graph->addLiteral($resource, 'skos:prefLabel', 'Impact areas', 'en');
  $graph->addLiteral($resource, 'skos:definition', 'TODO Description of impact areas.', 'en');
 
 /*
@@ -106,10 +113,13 @@ function _graph_setup(&$graph, $taxos) {
 /* single taxos */
 
 
-foreach ($taxos as $name) {
-     $resource = 'ia:' . $name;
+foreach ($taxos as $machine_name) {
+
+     $voc = taxonomy_vocabulary_machine_name_load('economic_impacts');
+
+     $resource = 'ia:' . $machine_name;
      $graph->addType($resource, array('skos:Concept'));
-     $graph->addLiteral($resource, 'skos:prefLabel', $name , 'en');
+     $graph->addLiteral($resource, 'skos:prefLabel', $voc->name , 'en');
      $graph->addLiteral($resource, 'skos:definition', 'TODO Description of impact areas.', 'en');
      $graph->addResource($resource, "skos:broader", 'ia:impact_areas');
 }
