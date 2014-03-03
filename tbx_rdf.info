@@ -1,0 +1,6 @@
+name = Tbx rdf
+description = Tbx Rdf service
+core = 7.x
+files[] = tbx_rdf.module
+
+
