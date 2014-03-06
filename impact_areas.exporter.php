@@ -13,6 +13,8 @@
 #set_include_path(get_include_path() . PATH_SEPARATOR . 'easyrdf/lib/');
 require_once "easyrdf/lib/EasyRdf.php";
 
+$taxos = array('economic_impacts','environmental_impacts','social_impacts');
+
 // serialize to
 // other formats: ntriples, rdfxml, turtle
 $format = 'rdfxml';
@@ -23,8 +25,8 @@ EasyRdf_Namespace::set('ia', 'http://beta.liaise-toolbox.eu/impact_assessment#')
 
 $graph = new EasyRdf_Graph();
 
-#$taxos = array('economic_impacts','environmental_impacts','social_impacts');
-$taxos = array('economic_impacts');
+
+#$taxos = array('economic_impacts');
 //$taxo_machine_name = 'economic_impacts';
 _graph_setup($graph, $taxos); // top concept, hierarchy
 
